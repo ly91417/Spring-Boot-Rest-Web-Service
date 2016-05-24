@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
-import Yl.entity.User;
+import Yl.entity.Messages;
 
 import java.util.List;
 
@@ -24,15 +24,15 @@ public class UserController {
         this.userRepository = userRepository;
     }
     @RequestMapping(method = RequestMethod.GET)
-    public List<User> findAllUsers() {
+    public List<Messages> findAllUsers() {
         return userRepository.findAll();
     }
 
     @RequestMapping(method = RequestMethod.POST)
     public void addUser (@RequestBody AddUserRequest addUserRequest) {
-        User user = new User();
-        user.setName(addUserRequest.getName());
-        user.setSurname(addUserRequest.getSurname());
+        Messages user = new Messages();
+        user.setName(addUserRequest.getMissionId());
+        user.setSurname(addUserRequest.getSeed());
         userRepository.save(user);
     }
 

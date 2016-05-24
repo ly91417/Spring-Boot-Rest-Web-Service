@@ -4,22 +4,22 @@ package Yl.entity.request;
  * Created by Ying on 5/23/16.
  */
 public class AddUserRequest {
-    private String name;
-    private String surname;
+    private int missionId;
+    private int seed;
 
-    public String getName() {
-        return name;
+    public int getMissionId() {
+        return missionId;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setMissionId(int missionId) {
+        this.missionId = missionId;
     }
 
-    public String getSurname() {
-        return surname;
+    public int getSeed() {
+        return seed;
     }
 
-    public void setSurname(String surname) {
-        this.surname = surname;
+    public void setSeed(int seed) {
+        this.seed = seed;
     }
 }
