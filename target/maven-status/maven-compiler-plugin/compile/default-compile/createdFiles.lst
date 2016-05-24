@@ -1,0 +1,5 @@
+pl/dmichalski/entity/User.class
+pl/dmichalski/repository/UserRepository.class
+pl/dmichalski/Runner.class
+pl/dmichalski/controller/UserController.class
+pl/dmichalski/entity/request/AddUserRequest.class
