@@ -1,13 +1,13 @@
-package pl.dmichalski.controller;
+package Yl.controller;
 
+import Yl.entity.request.AddUserRequest;
+import Yl.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
-import pl.dmichalski.entity.User;
-import pl.dmichalski.entity.request.AddUserRequest;
-import pl.dmichalski.repository.UserRepository;
+import Yl.entity.User;
 
 import java.util.List;
 

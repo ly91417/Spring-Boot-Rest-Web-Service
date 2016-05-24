@@ -1,4 +1,4 @@
-package pl.dmichalski.entity;
+package Yl.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

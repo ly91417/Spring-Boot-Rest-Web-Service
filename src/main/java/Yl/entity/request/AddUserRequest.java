@@ -1,4 +1,4 @@
-package pl.dmichalski.entity.request;
+package Yl.entity.request;
 
 /**
  * Created by Ying on 5/23/16.
